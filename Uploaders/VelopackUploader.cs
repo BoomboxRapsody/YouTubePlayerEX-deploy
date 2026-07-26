@@ -51,7 +51,7 @@ namespace NekoPlayer.Desktop.Deploy.Uploaders
         {
             Program.RunCommand("dotnet", $"vpk [{operatingSystemName}] pack"
                                          + $" --packTitle=\"{PackTitle}\""
-                                         + $" --packAuthors=\"BoomboxRapsody\""
+                                         + $" --packAuthors=\"Mayo_0x0 (BoomboxRapsody)\""
                                          + $" --packId=\"{Program.PackageName}\""
                                          + $" --packVersion=\"{version}\""
                                          + $" --runtime=\"{runtimeIdentifier}\""
