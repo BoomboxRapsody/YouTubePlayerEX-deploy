@@ -3,7 +3,7 @@
 Version=1.5
 Type=Application
 Name=NekoPlayer
-Comment=The enhanced YouTube video player
+Comment=A new era of YouTube Video Player with a focus on design and creativity.
 Icon=youtube-player-ex
 Exec=NekoPlayer %u
 Terminal=false
