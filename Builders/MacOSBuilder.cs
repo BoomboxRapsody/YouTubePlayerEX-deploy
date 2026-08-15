@@ -34,7 +34,7 @@ namespace NekoPlayer.Desktop.Deploy.Builders
             publishTarget = Path.Combine(stagingTarget, "Contents", "MacOS");
         }
 
-        protected override string TargetFramework => "net8.0";
+        protected override string TargetFramework => "net10.0";
         protected override string RuntimeIdentifier { get; }
 
         public override Uploader CreateUploader()
